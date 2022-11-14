@@ -1,0 +1,53 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{   
+    display: flex;
+    /* flex-direction: row; */
+    background: #c2c2c2;
+    /* Always is on the Main Axis */
+    /* justify-content: start; */
+    /* Always on the Cross Axis */
+    /* align-items: start; */
+    /* flex-wrap: wrap; */
+}
+
+.item{
+    /* This shows Flex :( Grow , Shrink , Width of the item) */
+    /* flex: 1 0 100px; */
+    flex: 1;
+    /* flex-basis: 100px; */
+     /* flex-grow: 1; */
+    height: 100px;
+   
+    background: #254de4;
+    margin: 10px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+     /* Always is on the Main Axis */
+    justify-content: center;
+    /* Always on the Cross Axis */
+    align-items: center;
+}
+
+.item:nth-of-type(1){
+/* flex-grow: 2; */
+/* flex-shrink: 1; */
+}
+
+.item:nth-of-type(2){
+    /* flex-grow: 3; */
+}
+
+.item:nth-of-type(3){
+    /* flex-grow: 1; */
+}
