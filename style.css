@@ -96,6 +96,14 @@
         
     }
 
+    .header .container button{
+        width: 100%;
+    }
+
+    .header .container i{
+        margin-right: 10px;
+    }
+
     .boxes .container{
         display: flex;
         justify-content: space-between;
@@ -116,7 +124,23 @@
     }
 
     .box i{
-        margin-right: 10px;
+        margin-right: 20px;
+        width: 10px;
+    }
+
+    .box h2{
+        font-size: 25px;
+    }
+
+    .box .btn-div{
+        display: flex;        
+        /* justify-content: center; */
+        /* justify-content: space-between; */
+    }
+
+    .btn-div button{
+        flex-grow: 1;
+        margin: 10px;
     }
 
     @media(max-width:768px)
